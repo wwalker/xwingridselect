@@ -1,0 +1,20 @@
+pkgbase = xwingridselect
+	pkgdesc = X11 window switcher with fancy look
+	pkgver = v1.0.0
+	pkgrel = 1
+	url = https://github.com/TheCynicalTeam/xwingridselect
+	arch = i686
+	arch = x86_64
+	license = GNU General Public License v3.0
+	makedepends = cmake
+	makedepends = git
+	makedepends = make
+	depends = gtk2
+	depends = gtk-engines
+	depends = gtk-engine-murrine
+	options = !libtool
+	options = strip
+	source = git+https://github.com/TheCynicalTeam/xwingridselect.git
+	md5sums = SKIP
+
+pkgname = xwingridselect
